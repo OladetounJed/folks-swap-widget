@@ -1,4 +1,4 @@
-import { Button } from "@acme/core";
+import { Button } from "swap-widget-react";
 
 export default function Page() {
   return (

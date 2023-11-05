@@ -10,18 +10,18 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "swap-widget-react": "*",
-    "swap-widget-js": "*",
     "next": "^13.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swap-widget-js": "*",
+    "swap-widget-react-2": "^0.0.0"
   },
   "devDependencies": {
-    "tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "eslint-config": "*",
+    "tsconfig": "*",
     "typescript": "^4.5.4"
   }
 }

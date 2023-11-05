@@ -1,6 +1,6 @@
 {
-  "name": "tailwindconfig",
-  "version": "0.0.0",
+  "name": "@oladetounjed/tailwindconfig",
+  "version": "0.0.1",
   "main": "./index.js",
   "license": "MIT"
 }

@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["swap"],
+  extends: ["swap-2"],
 };

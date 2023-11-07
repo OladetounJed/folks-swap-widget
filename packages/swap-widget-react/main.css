@@ -1,3 +1,39 @@
+:root {
+  --background: #fafafa;
+  --primary: #000000;
+  --secondary: #595d62;
+  --border: #e2e2e2;
+  --accent: #3669bb;
+  --background-dark: #11141d;
+  --primary-dark: #ffff;
+  --secondary-dark: #9a9ca0;
+  --border-dark: #444444;
+  ---accent-dark: #3669bb;
+}
+
+html {
+  --background: var(--background);
+  --primary: var(--primary);
+  --secondary: var(--secondary);
+  --border: var(--border);
+  --accent: var(--accent);
+
+}
+
+html.dark {
+  --background: var(--background-dark);
+  --primary: var(--primary-dark);
+  --secondary: var(--secondary-dark);
+  --border: var(--border-dark);
+  --accent: var(--accent);
+  
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+  }
+} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
